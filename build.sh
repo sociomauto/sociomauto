@@ -5,7 +5,7 @@
 
 echo ""
 echo "====> Compiling sociomauto"
-fpc -Fllib/ -FEbin/ -FUtmp/ -O2 -g src/sociomauto.pas
+fpc -Fllib/linux-x86_64 -FEbin/ -FUtmp/ -O2 src/sociomauto.pas
 
 
 #echo ""
